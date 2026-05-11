@@ -1,0 +1,10 @@
+build/
+DerivedData/
+*.component/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Keep the foobar2000 SDK next to this repo as ../sdk when building locally.
+sdk/
+SDK-*.7z
