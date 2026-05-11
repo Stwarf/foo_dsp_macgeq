@@ -9,7 +9,6 @@ This is a foobar2000 macOS component that provides:
 - Persistent global settings
 - An `On` checkbox that bypasses processing when off
 - Preset load/save buttons and auto preamp leveling
-- A foobar2000 Preferences page under the DSP section
 - A macOS layout element matching `macgeq`, `graphic-eq`, or `Mac Graphic EQ`
 
 The DSP implementation is a practical RBJ-style peaking-filter graphic EQ. It is not a direct port of `foo_dsp_xgeq` because public source for that Windows component was not found during setup.

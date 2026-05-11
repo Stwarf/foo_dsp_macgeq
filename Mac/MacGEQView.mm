@@ -425,26 +425,6 @@ public:
     }
 };
 
-class macgeq_preferences_page : public preferences_page {
-public:
-    service_ptr instantiate() override {
-        return fb2k::wrapNSObject([[MacGEQViewController alloc] initCompact:NO]);
-    }
-
-    const char * get_name() override {
-        return "Mac Graphic EQ";
-    }
-
-    GUID get_guid() override {
-        return macgeq::preferences_guid;
-    }
-
-    GUID get_parent_guid() override {
-        return preferences_page::guid_dsp;
-    }
-};
-
 static service_factory_single_t<macgeq_ui_element> g_macgeq_ui_element_factory;
-static preferences_page_factory_t<macgeq_preferences_page> g_macgeq_preferences_page_factory;
 
 }
