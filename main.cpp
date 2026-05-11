@@ -2,7 +2,7 @@
 
 DECLARE_COMPONENT_VERSION(
     "Mac Graphic EQ",
-    "1.0.0",
+    "1.0.1",
     "Visual graphic equalizer for foobar2000 Mac with persistent settings and an embeddable layout control."
 );
 

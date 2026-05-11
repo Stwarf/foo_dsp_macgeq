@@ -334,6 +334,8 @@
     (void)sender;
     macgeq::EqSettings settings = self.surface.settings;
     for (float &gain : settings.gainsDb) gain = 0.0f;
+    settings.preampDb = 0.0f;
+    self.preampSlider.floatValue = 0.0f;
     self.surface.settings = settings;
     [self saveSettings];
 }
