@@ -2,8 +2,8 @@
 
 DECLARE_COMPONENT_VERSION(
     "Mac Graphic EQ",
-    "0.1.0",
-    "31-band graphic equalizer for foobar2000 Mac with persistent settings and an embeddable layout control."
+    "1.0.0",
+    "Visual graphic equalizer for foobar2000 Mac with persistent settings and an embeddable layout control."
 );
 
 VALIDATE_COMPONENT_FILENAME("foo_dsp_macgeq.component");

@@ -52,4 +52,20 @@ or:
 graphic-eq
 ```
 
+Example `UI-Layout.txt` entry:
+
+```text
+splitter vertical style=thin
+{
+    playlist
+    macgeq
+}
+```
+
+In an existing layout, replace any pane entry where you want the equalizer displayed with:
+
+```text
+macgeq
+```
+
 The DSP must also be added to the active DSP chain for audio processing. The embedded UI controls the same persistent settings as the DSP.
